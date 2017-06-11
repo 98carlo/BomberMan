@@ -110,7 +110,7 @@ public class ModelMain {
 				if(field[i][y] == BRICK){
 					field[i][y] = DEATH;
 					break;
-				}else if(field[i][y] == WALL || field[i][y] == BOMB){
+				}else if(field[i][y] == WALL || field[i][y] == BOMB || field[i][y] == BOMBBLUE){
 					break;
 				} else{
 					field[i][y] = DEATH;
@@ -122,7 +122,7 @@ public class ModelMain {
 				if(field[i][y] == BRICK){
 					field[i][y] = DEATH;
 					break;
-				}else if(field[i][y] == WALL || field[i][y] == BOMB){
+				}else if(field[i][y] == WALL || field[i][y] == BOMB || field[i][y] == BOMBBLUE){
 					break;
 				} else{
 					field[i][y] = DEATH;
@@ -135,7 +135,7 @@ public class ModelMain {
 				if(field[x][i] == BRICK){
 					field[x][i] = DEATH;
 					break;
-				}else if(field[x][i] == WALL || field[x][i] == BOMB){
+				}else if(field[x][i] == WALL || field[x][i] == BOMB || field[x][i] == BOMBBLUE){
 					break;
 				} else{
 					field[x][i] = DEATH;					
@@ -147,7 +147,7 @@ public class ModelMain {
 				if(field[x][i] == BRICK){
 					field[x][i] = DEATH;
 					break;
-				}else if(field[x][i] == WALL || field[x][i] == BOMB){
+				}else if(field[x][i] == WALL || field[x][i] == BOMB || field[x][i] == BOMBBLUE){
 					break;
 				} else{
 					field[x][i] = DEATH;
